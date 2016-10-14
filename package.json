@@ -1,0 +1,30 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "description": "Demo repo to test react component doc string generator.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack -d --watch",
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottsword/components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottsword/components/issues"
+  },
+  "homepage": "https://github.com/scottsword/components#readme",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.4.0-rc.4",
+    "react-dom": "^15.4.0-rc.4",
+    "webpack": "^1.13.2"
+  }
+}
