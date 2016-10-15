@@ -2,7 +2,7 @@ import React from "react";
 import {render} from "react-dom";
 
 // Component Lib Imports
-import TS_Button from "./components/button.jsx";
+import TS_Button from "./components/button/button.jsx";
 
 
 class App extends React.Component {
