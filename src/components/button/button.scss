@@ -1,3 +1,33 @@
+@import '../../variables.scss';
+
 .ts-btn {
-  background: red;
+  font-family: 'ClearSans', sans-serif;
+  font-size: 14px;
+  min-width: 75px;
+  padding: 4px 8px 7px 8px;
+  background-color: $default;
+  color: $default-accent;
+  border-radius: 3px;
+  border-width: 0;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.ts-btn:last-of-type {
+  margin-right: 0;
+}
+
+.ts-btn--pri {
+  background-color: $primary;
+  color: $primary-accent;
+}
+
+.ts-btn--success {
+  background-color: $success;
+  color: $success-accent;
+}
+
+.ts-btn--danger {
+  background-color: $danger;
+  color: $danger-accent;
 }

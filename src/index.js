@@ -9,8 +9,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <p>Hello React!</p>
-       <Button label="Yolo" />
+      <p>Local Workspace</p>
+       <Button label="Default" />
+       <Button label="Primary" tsStyle="primary" />
+       <Button label="Success" tsStyle="success" />
+       <Button label="Danger" tsStyle="danger" />
       </div>
     );
   }

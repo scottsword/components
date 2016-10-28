@@ -1,17 +1,20 @@
-React component example:
 
-    <Button label="Yolo" />
 
-One more with generic code fence:
+Button Themes:
 
 ```
-<Button label="Yolo" />
+<span>
+<Button label="Default" />
+<Button label="Primary" tsStyle="primary" />
+<Button label="Success" tsStyle="success" />
+<Button label="Danger" tsStyle="danger" />
+</span>
 ```
 
 This example rendered only as highlighted source code:
 
 ```html
-<Button label="Yolo" />
+<Button label="Yolo" tsStyle="primary" />
 ```
 
 TODO: We need to add a link to the asset
