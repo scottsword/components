@@ -2,7 +2,7 @@ import React from "react";
 import {render} from "react-dom";
 
 // Component Lib Imports
-import TS_Button from "./components/button/button.jsx";
+import Button from "./components/button/button.js";
 
 
 class App extends React.Component {
@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <div>
         <p>Hello React!</p>
-       <TS_Button></TS_Button>
+       <Button label="Yolo" />
       </div>
     );
   }

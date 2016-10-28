@@ -4,10 +4,13 @@ import {render} from "react-dom";
 // Component Styles
 import "./button.scss";
 
-// Component Class
-export default class TS_Button extends React.Component {
+/**
+* This is the simple button component.
+*
+*/
+export default class Button extends React.Component {
   render() {
-    return <button className="ts-btn">Text</button>;
+    return <button className="ts-btn">{this.props.label}</button>;
   }
 }
 
